@@ -13,7 +13,7 @@ import java.util.Date;
 public class MyTask {
 
     /**
-     * 定时任务 每隔5秒触发一次
+     * 定时任务 每隔5秒触发一次 持续触发
      */
     //@Scheduled(cron = "0/5 * * * * ?")
     public void executeTask(){
